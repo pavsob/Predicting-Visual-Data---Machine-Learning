@@ -4,7 +4,7 @@ The task is to correctly identify the colour and texture for these objects based
 
 Support Vector Machine was used as the main model, a powerful and versatile Machine Learning model that can perform either linear or non-linear classification (depending on the kernel). It is especially well suited for the classification of complex but small or medium-sized datasets, and it is effective in high dimensional space.
 
-For more information and reasoning behind the actions made in the code, look into FurtherInfo.pdf.
+For more information and reasoning behind the actions made in the code, look into FurtherDescription.pdf.
 
 # Dataset
 The dataset is based on a subset of the GQA dataset for learning attributes and relations. The GQA dataset consists of images where objects are annotated in terms of bounding boxes and relevant attributes and relations. Each row in our dataset corresponds to an object in one of the images and contains the following fields:
