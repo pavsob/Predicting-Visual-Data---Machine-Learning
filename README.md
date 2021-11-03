@@ -1,4 +1,4 @@
-# PredictingVisualData_ML
+# Predicting Visual Data - ML
 This code was used in a friendly machine learning competition for a best performance on a low quality visual data set.
 The task is to correctly identify the colour and texture for these objects based on other features.
 
