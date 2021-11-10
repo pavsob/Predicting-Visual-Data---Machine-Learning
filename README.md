@@ -1,10 +1,15 @@
 # Predicting Visual Data - ML
-This code was used in a friendly machine learning competition for a best performance on a low quality visual data set.
+This code was used in a friendly machine learning competition for the best performance on a low-quality visual data set.
 The task is to correctly identify the colour and texture for these objects based on other features.
 
-Support Vector Machine was used as the main model, a powerful and versatile Machine Learning model that can perform either linear or non-linear classification (depending on the kernel). It is especially well suited for the classification of complex but small or medium-sized datasets, and it is effective in high dimensional space.
+Support Vector Machine was used as the primary model, a powerful and versatile Machine Learning model that can perform either linear or non-linear classification (depending on the kernel). It is especially well suited for classifying complex but small or medium-sized datasets, and it is effective in high dimensional space.
+Further, Random Forest and Logistic regression models were trained for comparison where SVM performed with the best accuracy and balanced accuracy.
 
-For more information and reasoning behind the actions made in the code, look into FurtherDescription.pdf.
+The training data set was imbalanced; therefore, three separate techniques were used to coop with that. The techniques were under-sampling, over-sampling using SMOTE and balancing weights in the training model, which showed the best performance.
+
+In order to find the best hyperparameters grid search with 5-fold cross-validation was used.
+
+For a more detailed description and reasoning behind the actions made in the code, look into FurtherDescription.pdf.
 
 # Dataset
 The dataset is based on a subset of the GQA dataset for learning attributes and relations. The GQA dataset consists of images where objects are annotated in terms of bounding boxes and relevant attributes and relations. Each row in our dataset corresponds to an object in one of the images and contains the following fields:
